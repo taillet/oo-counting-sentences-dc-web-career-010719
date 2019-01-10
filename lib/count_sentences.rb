@@ -16,7 +16,7 @@ class String
 
   def count_sentences
   if self.include?(".") ||  self.include?("?") || self.include?("!")
-  array = self.split(". ") ||  self.split("? ") || self.split("! ")
+  array = self.split(".") ||  self.split("?") || self.split("!")
   array.length
 else 
   return 0
