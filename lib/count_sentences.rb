@@ -19,7 +19,7 @@ class String
   array = self.split(/[.?!]/).reject{|split| split == ""}
   array.length
   else 
-  return 0
+    return 0
   end
 end
 end
