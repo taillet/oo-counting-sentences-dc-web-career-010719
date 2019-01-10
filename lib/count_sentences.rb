@@ -18,6 +18,8 @@ class String
   if self.include?(".") ||  self.include?("?") || self.include?("!")
   array = self.split(".") ||  self.split("?") || self.split("!")
   array.length
+else 
+  return 0
   binding.pry
   end
 end
