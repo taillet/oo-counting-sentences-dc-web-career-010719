@@ -19,7 +19,6 @@ class String
   array = self.split(".") ||  self.split("?") || self.split("!")
   array.length
     binding.pry
-
 else 
   return 0
   end
